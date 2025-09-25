@@ -3,8 +3,8 @@ import json
 import pickle
 
 # Paths
-RAW_DIR = "../retrieval style chat/data"
-PROCESSED_DIR = "../retrieval style chat/data"
+RAW_DIR = "../retrieval-style-chatbot/data"
+PROCESSED_DIR = "../retrieval-style-chatbot/data"
 os.makedirs(PROCESSED_DIR, exist_ok=True)
 OUTPUT_FILE = os.path.join(PROCESSED_DIR, "preprocess.pkl")
 

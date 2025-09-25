@@ -5,7 +5,7 @@ import random
 from difflib import get_close_matches
 
 # Paths
-PROCESSED_DIR = "../retrieval style chat/data"
+PROCESSED_DIR = "../retrieval-style-chatbot/data"
 PREPROCESS_FILE = os.path.join(PROCESSED_DIR, "preprocess.pkl")
 
 # -------------------------
