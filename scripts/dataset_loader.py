@@ -6,7 +6,7 @@ from difflib import get_close_matches
 
 # Paths
 PROCESSED_DIR = "../retrieval-style-chatbot/data"
-PREPROCESS_FILE = os.path.join(PROCESSED_DIR, "preprocess.pkl")
+PREPROCESS_FILE = os.path.join("data", "preprocess.pkl")
 
 # -------------------------
 # Normalize text
